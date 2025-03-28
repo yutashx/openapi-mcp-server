@@ -1,0 +1,19 @@
+{
+  "name": "openapi-mcp-server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/js-yaml": "^4.0.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.1",
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "node-fetch": "^3.3.2",
+    "openapi-types": "^12.1.3"
+  }
+}
